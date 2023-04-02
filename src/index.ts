@@ -107,16 +107,16 @@ class MotorBike extends Vehicle {
     }
 }
 
-const car1 = new Car('Honda', 'Civic', 2022, 4, 5, false);
+const car1 = new Car('honda car', 'civic', 2022, 4, 5, false);
 console.log(`CAR ==> ${car1.rent()}`);
 console.log(`CAR ==> ${car1.rent()}`);
 console.log(`CAR ==> ${car1.return()}`);
 
-const truck1 = new Truck('Ford', 'F-150', 2011, 1800, false);
+const truck1 = new Truck('ford', 'f-150', 2011, 1800, false);
 console.log(`TRUCK ==> ${truck1.rent()}`);
 console.log(`TRUCK ==> ${truck1.return()}`);
 
-const motorcycle1 = new MotorBike('Honda', 'CG-70', 2017, 70, false);
+const motorcycle1 = new MotorBike('honda bike', 'CG-70', 2017, 70, false);
 console.log(`motorcycle ==> ${motorcycle1.rent()}`);
 console.log(`motorcycle ==> ${motorcycle1.rent()}`);
 console.log(`motorcycle ==> ${motorcycle1.return()}`)
